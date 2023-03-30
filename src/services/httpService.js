@@ -13,6 +13,7 @@ export async function addTask(task) {
       response = res.data;
     });
     return response;
+    
   } catch (error) {
     console.error("ERROR:-" + error.message);
   }
